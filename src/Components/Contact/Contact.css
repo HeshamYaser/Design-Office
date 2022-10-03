@@ -1,0 +1,323 @@
+.contact {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    position: relative;
+}
+
+.contact .contact-img {
+    width: 100;
+}
+
+.contact .contact-img img {
+    width: 100%;
+    opacity: .6;
+}
+
+.contact .contact-props {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.contact .contact-props h3 {
+    color: var(--second-color);
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact .contact-props p {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.info {
+    width: 50%;
+    margin-left: 25%;
+    border: 1px solid var(--second-color);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 330px;
+    margin-top: 50px;
+}
+
+.contact .info .info-icon  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.contact .info .info-icon .icon {
+    color: var(--Nav-color);
+}
+
+.contact .info .info-p {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+
+.contact .footer {
+    width: 100%;
+    position: absolute;
+}
+
+@media (min-width:300px) and (max-width:580px) {
+
+    .contact {
+        width: 230%;
+    }
+
+    .contact .contact-img {
+        width: 100%;
+    }
+
+    .contact .contact-img img {
+        width: 100%;
+    }
+
+    .contact .contact-props {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        
+    }
+    
+    .contact .contact-props h3 {
+        color: var(--second-color);
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contact .contact-props p {
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+
+    .info {
+        width: 50%;
+        margin-left: 25%;
+        border: 1px solid var(--second-color);
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 280px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .contact .info .info-icon  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    
+    .contact .info .info-icon .icon {
+        color: var(--Nav-color);
+    }
+    
+    .contact .info .info-p {
+        color: #fff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 20px;
+        justify-content: space-around;
+    }
+
+    .contact .footer {
+        width: 100%;
+        top: 124%;
+    }
+    
+}
+
+@media (min-width:581px) and (max-width:800px) {
+    .contact {
+        width: 230%;
+    }
+
+    .contact .contact-img {
+        width: 100%;
+    }
+
+    .contact .contact-img img {
+        width: 100%;
+    }
+
+    .contact .contact-props {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        
+    }
+    
+    .contact .contact-props h3 {
+        color: var(--second-color);
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contact .contact-props p {
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .info {
+        width: 50%;
+        margin-left: 25%;
+        border: 1px solid var(--second-color);
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 330px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .contact .info .info-icon  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    
+    .contact .info .info-icon .icon {
+        color: var(--Nav-color);
+    }
+    
+    .contact .info .info-p {
+        color: #fff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 20px;
+        justify-content: space-around;
+    }
+
+    .contact .footer {
+        width: 100%;
+        top: 124%;
+    }
+    
+}
+
+@media (min-width:801px) and (max-width:1000px) {
+    .contact {
+        width: 230%;
+    }
+
+    .contact .contact-img {
+        width: 100%;
+    }
+
+    .contact .contact-img img {
+        width: 100%;
+    }
+
+    .contact .contact-props {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+       
+    }
+    
+    .contact .contact-props h3 {
+        color: var(--second-color);
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contact .contact-props p {
+        color: #fff;
+        font-size: 50px;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .info {
+        width: 50%;
+        margin-left: 25%;
+        border: 1px solid var(--second-color);
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 330px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .contact .info .info-icon  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    
+    .contact .info .info-icon .icon {
+        color: var(--Nav-color);
+    }
+    
+    .contact .info .info-p {
+        color: #fff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 20px;
+        justify-content: space-around;
+    }
+
+    .contact .footer {
+        width: 100%;
+    }
+    
+}

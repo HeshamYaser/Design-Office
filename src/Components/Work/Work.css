@@ -1,0 +1,46 @@
+.work-img {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    overflow-x: hidden;
+    
+}
+
+.work-img img {
+    /* position: absolute; */
+    width: 450px;
+    height: 400px;
+}
+
+ .pic {
+        margin-top:50px;
+}
+
+@media (min-width:300px) and (max-width:1000px) {
+    .work-img {
+       display: none;
+        
+    }
+}
+
+
+@media (min-width:1000px) and (max-width:1326px) {
+    .work-img {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        overflow-x: hidden;
+        
+    }
+
+    .work-img img {
+       
+        width: 34%;
+        height: 300px;
+    }
+
+}

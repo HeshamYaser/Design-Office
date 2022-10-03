@@ -1,0 +1,88 @@
+.Header {
+    width: 100% !important;
+    position: relative;
+    height: 590px;
+    background-size: cover;
+    
+}
+
+.Header .img {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.Header .img img {
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    opacity: .3;
+}
+
+.Header .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    max-width: 100%;
+    transform: translate(-50%, -50%);
+}
+.Header .text h2 {
+    color: #fff;
+    font-weight: bold;
+    width: 690px;
+    word-spacing: 1px;
+    font-size: 30px;
+}
+
+.Header .text h5 {
+    color: #fff;
+    font-size: 20px;
+    word-spacing: 1px;
+    width: 690px;
+}
+
+.Header .text button {
+    background-color: var(--second-color);
+    border: 1px solid var(--second-color);
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.Header .text button a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+@media (min-width:300px) and (max-width:600px) {
+    .Header {
+        position: relative;
+        width: 230% !important;
+        height: 604px;
+    }
+    .Header .text button {
+        height: 100px;
+    }
+
+    .Header .text button a {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:581px) and (max-width:800px) {
+    .Header {
+        width: 230% !important;
+    }
+}
+
+@media (min-width:801px) and (max-width:1000px) {
+    .Header {
+        width: 230% !important;
+    }
+}

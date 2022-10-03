@@ -1,0 +1,44 @@
+.footer {
+    background-color: var(--second-color);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    position: absolute;
+
+}
+
+
+@media (min-width:300px) and (max-width:510px) {
+    .footer {
+        background-color: var(--second-color);
+        color: #fff;
+        width: 230%;
+        text-align: center;
+        height: 30px;
+        position: absolute;
+    
+    }
+}
+
+@media (min-width:511px) and (max-width:800px) {
+    .footer {
+        background-color: var(--second-color);
+        color: #fff;
+        width: 230%;
+        text-align: center;
+        height: 30px;
+        position: absolute;
+    
+    }
+}
+
+@media (min-width:801px) and (max-width:1000px) {
+    .footer {
+        width: 230%;
+    }
+}
+
+
+
+
